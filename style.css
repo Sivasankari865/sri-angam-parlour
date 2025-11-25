@@ -1,0 +1,38 @@
+/* 1. Base Fonts */
+body { font-family: 'Lato', sans-serif; }
+.font-heading, .navbar-brand { font-family: 'Playfair Display', serif; }
+
+/* 2. Colors */
+.brand-text { color: #d63384 !important; letter-spacing: 1px; }
+.text-gold { color: #D4af37; }
+
+/* 3. Buttons */
+.btn-pink {
+    background-color: #d63384;
+    border: none;
+    transition: 0.3s;
+}
+.btn-pink:hover {
+    background-color: #b02a6b;
+    color: white;
+}
+
+/* 4. HERO SECTION - LUXURY GRADIENT */
+.hero-section {
+    /* NO MORE GREY COLOR */
+    /* This creates a beautiful Pink/Purple/Dark gradient */
+    background: linear-gradient(to right, #4a192c, #8a2387, #e94057);
+    
+    min-height: 90vh; 
+    width: 100%;
+}
+
+/* 5. Logo Styling */
+.hero-logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Adds a white glow so the logo pops on the dark background */
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
+}
